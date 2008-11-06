@@ -2,11 +2,11 @@ Gem::Specification.new do |s|
   s.name = %q{google-rest}
   s.version = "0.0.2"
   s.date = %q{2008-11-05}
-  s.summary = %q{FIX (describe your package)}
+  s.summary = %q{ A simple Ruby wrapper around the Google REST API from http://code.google.com/apis/ajaxsearch/documentation/reference.html#_intro_fonje}
   s.email = ["hflouw@gmail.com"]
-  s.homepage = %q{FIX (url)}
+  s.homepage = %q{http://daimpi.co.za}
   s.rubyforge_project = %q{google-rest}
-  s.description = %q{FIX (describe your package)}
+  s.description = %q{It can search google and gets JSON results back in a (hopefully) ruby way}
   s.has_rdoc = true
   s.post_install_message = %q{PostInstall.txt}
   s.authors = ["Hendrik F. Louw"]
