@@ -1,32 +1,38 @@
 = google-rest
 
-* FIX (url)
+* http://daimpi.co.za
 
 == DESCRIPTION:
 
-FIX (describe your package)
+A Simple Ruby wrapper for the Google REST API
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+No Problems.. my programs are perfect :P
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+  require 'rubygems'
+  require 'google-rest'
+  google = GoogleSearch.new
+  
+  google.search(:q => "the answer to the universe")
+  # yeah thats bout it, then you get a resultset back which you can iterate through and do with what you want
+  
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+Be smarter than a goldfish
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+Waiting for rubyforge aproval, github gem generation not working for some strange reason
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2008 FIXME full name
+Copyright (c) 2008 Hendrik F. Louw
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
