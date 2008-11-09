@@ -1,17 +1,38 @@
+# -*- encoding: utf-8 -*-
+
 Gem::Specification.new do |s|
   s.name = %q{google-rest}
   s.version = "0.0.2"
-  s.date = %q{2008-11-06}
-  s.summary = %q{FIX (describe your package)}
+
+  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  s.authors = ["Hendrik Louw"]
+  s.date = %q{2008-11-09}
+  s.description = %q{A Simple Ruby wrapper for the Google REST API}
   s.email = ["hflouw@gmail.com"]
-  s.homepage = %q{FIX (url)}
-  s.rubyforge_project = %q{google-rest}
-  s.description = %q{FIX (describe your package)}
+  s.extra_rdoc_files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "pkg/google-rest-0.0.2/History.txt", "pkg/google-rest-0.0.2/Manifest.txt", "pkg/google-rest-0.0.2/PostInstall.txt", "pkg/google-rest-0.0.2/README.rdoc"]
+  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "github-test.rb", "google-rest.gemspec", "lib/google-rest.rb", "lib/google-rest/google_result.rb", "lib/google-rest/google_result_set.rb", "lib/google-rest/google_search.rb", "nbproject/private/private.properties", "nbproject/project.properties", "nbproject/project.xml", "pkg/google-rest-0.0.2.gem", "pkg/google-rest-0.0.2.tgz", "pkg/google-rest-0.0.2/History.txt", "pkg/google-rest-0.0.2/Manifest.txt", "pkg/google-rest-0.0.2/PostInstall.txt", "pkg/google-rest-0.0.2/README.rdoc", "pkg/google-rest-0.0.2/Rakefile", "pkg/google-rest-0.0.2/lib/google-rest.rb", "pkg/google-rest-0.0.2/lib/google-rest/google_result.rb", "pkg/google-rest-0.0.2/lib/google-rest/google_result_set.rb", "pkg/google-rest-0.0.2/lib/google-rest/google_search.rb", "pkg/google-rest-0.0.2/script/console", "pkg/google-rest-0.0.2/script/destroy", "pkg/google-rest-0.0.2/script/generate", "pkg/google-rest-0.0.2/test/test_google-rest.rb", "pkg/google-rest-0.0.2/test/test_helper.rb", "script/console", "script/destroy", "script/generate", "test/test_google-rest.rb", "test/test_helper.rb"]
   s.has_rdoc = true
+  s.homepage = %q{http://daimpi.co.za}
   s.post_install_message = %q{PostInstall.txt}
-  s.authors = ["Hendrik F. Louw"]
-  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "lib/google-rest.rb", "lib/google-rest/google_result.rb", "lib/google-rest/google_result_set.rb", "lib/google-rest/google_search.rb", "script/console", "script/destroy", "script/generate", "test/test_google-rest.rb", "test/test_helper.rb"]
-  s.test_files = ["test/test_helper.rb", "test/test_google-rest.rb"]
   s.rdoc_options = ["--main", "README.rdoc"]
-  s.extra_rdoc_files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc"]
+  s.require_paths = ["lib"]
+  s.rubyforge_project = %q{google-rest}
+  s.rubygems_version = %q{1.3.1}
+  s.summary = %q{A Simple Ruby wrapper for the Google REST API}
+
+  if s.respond_to? :specification_version then
+    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
+    s.specification_version = 2
+
+    if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+      s.add_development_dependency(%q<newgem>, [">= 1.0.7"])
+      s.add_development_dependency(%q<hoe>, [">= 1.8.0"])
+    else
+      s.add_dependency(%q<newgem>, [">= 1.0.7"])
+      s.add_dependency(%q<hoe>, [">= 1.8.0"])
+    end
+  else
+    s.add_dependency(%q<newgem>, [">= 1.0.7"])
+    s.add_dependency(%q<hoe>, [">= 1.8.0"])
+  end
 end
