@@ -49,7 +49,7 @@ class GoogleSearch
     @cached_response = Net::HTTP.get_response url
     @cached_result = JSON.parse(@cached_response.body)
     if @cached_result['responseStatus'] == 200
-      return @cached_result['responseData']['results']
+      return GoogleResultSet.new( @cached_result )
     else
       raise @cached_result['responseDetails']
     end
