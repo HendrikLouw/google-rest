@@ -9,6 +9,9 @@ lib/google-rest.rb
 lib/google-rest/google_result.rb
 lib/google-rest/google_result_set.rb
 lib/google-rest/google_search.rb
+nbproject/private/private.properties
+nbproject/project.properties
+nbproject/project.xml
 script/console
 script/destroy
 script/generate

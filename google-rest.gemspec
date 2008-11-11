@@ -2,15 +2,15 @@
 
 Gem::Specification.new do |s|
   s.name = %q{google-rest}
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Hendrik Louw"]
-  s.date = %q{2008-11-09}
+  s.date = %q{2008-11-11}
   s.description = %q{A Simple Ruby wrapper for the Google REST API}
   s.email = ["hflouw@gmail.com"]
-  s.extra_rdoc_files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "pkg/google-rest-0.0.2/History.txt", "pkg/google-rest-0.0.2/Manifest.txt", "pkg/google-rest-0.0.2/PostInstall.txt", "pkg/google-rest-0.0.2/README.rdoc"]
-  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "github-test.rb", "google-rest.gemspec", "lib/google-rest.rb", "lib/google-rest/google_result.rb", "lib/google-rest/google_result_set.rb", "lib/google-rest/google_search.rb", "nbproject/private/private.properties", "nbproject/project.properties", "nbproject/project.xml", "pkg/google-rest-0.0.2.gem", "pkg/google-rest-0.0.2.tgz", "pkg/google-rest-0.0.2/History.txt", "pkg/google-rest-0.0.2/Manifest.txt", "pkg/google-rest-0.0.2/PostInstall.txt", "pkg/google-rest-0.0.2/README.rdoc", "pkg/google-rest-0.0.2/Rakefile", "pkg/google-rest-0.0.2/lib/google-rest.rb", "pkg/google-rest-0.0.2/lib/google-rest/google_result.rb", "pkg/google-rest-0.0.2/lib/google-rest/google_result_set.rb", "pkg/google-rest-0.0.2/lib/google-rest/google_search.rb", "pkg/google-rest-0.0.2/script/console", "pkg/google-rest-0.0.2/script/destroy", "pkg/google-rest-0.0.2/script/generate", "pkg/google-rest-0.0.2/test/test_google-rest.rb", "pkg/google-rest-0.0.2/test/test_helper.rb", "script/console", "script/destroy", "script/generate", "test/test_google-rest.rb", "test/test_helper.rb"]
+  s.extra_rdoc_files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc"]
+  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "github-test.rb", "google-rest.gemspec", "lib/google-rest.rb", "lib/google-rest/google_result.rb", "lib/google-rest/google_result_set.rb", "lib/google-rest/google_search.rb", "nbproject/private/private.properties", "nbproject/project.properties", "nbproject/project.xml", "script/console", "script/destroy", "script/generate"]
   s.has_rdoc = true
   s.homepage = %q{http://daimpi.co.za}
   s.post_install_message = %q{PostInstall.txt}
